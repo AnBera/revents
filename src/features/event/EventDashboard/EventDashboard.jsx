@@ -67,7 +67,6 @@ class EventDashboard extends Component {
   render() {
     const { selectedEvent } = this.state;
     const { events } = this.props;
-    console.log('props is' + JSON.stringify(this.props));
     return (
       <Grid>
         <Grid.Column width={10}>
